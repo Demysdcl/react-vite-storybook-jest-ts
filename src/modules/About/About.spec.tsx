@@ -13,12 +13,12 @@ describe('About', function () {
       ReactDOM.render(<About />, container)
     })
     const header = container.querySelector('h1')
-    expect(header?.textContent).toBe('About')
+    expect(header?.textContent).toBe('About page')
   })
 
   it('should display about with testing in library', function () {
     const { container } = render(<About />)
     const header = container.querySelector('h1')
-    expect(header).toHaveTextContent('About')
+    expect(header).toHaveTextContent('About page')
   })
 })
