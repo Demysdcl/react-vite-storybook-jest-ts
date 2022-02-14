@@ -9,3 +9,5 @@ This template is configured with:
 - [Storybook](https://storybook.js.org/)
 - [Jest](https://jestjs.io/)
 - [Testing in Library](https://testing-library.com/)
+- [Prettier](https://prettier.io/)
+- [Eslint](https://eslint.org/)
